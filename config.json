@@ -60,5 +60,5 @@
     "menu": "polymermenu"
   },
   "subscription": false,
-  "main": "koapp-theme-android.html"
+  "main": "themes/koapp-theme-android/koapp-theme-android.html"
 }
