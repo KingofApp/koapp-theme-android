@@ -20,13 +20,12 @@
     "market": true
   },
   "images" : {
-    "list" : "images/list.png",
+    "list" : "themes/koapp-theme-android/images/list.png",
     "screenshots" : [
-      "images/screenshot01.png",
-      "images/screenshot02.png"
+      "themes/koapp-theme-android/images/screenshot01.png"
     ],
-    "popover" : "images/popover.png",
-    "banner" : "images/banner.png"
+    "popover" : "themes/koapp-theme-android/images/popover.png",
+    "banner" : "themes/koapp-theme-android/images/banner.png"
   },
   "defaultConfig": {
     "colors": {
