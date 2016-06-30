@@ -24,6 +24,10 @@
         display: none !important;
       }
 
+      :host([horizontal]) {
+        @apply(--layout-horizontal);
+      }
+
       .header {
         border-top-left-radius: inherit;
         border-top-right-radius: inherit;
@@ -70,8 +74,15 @@
     <!-- write your template here -->
     <div class="header">
       <iron-image hidden$="[[!image]]" src="[[image]]" preload$="[[preloadImage]]" fade$="[[fadeImage]]"></iron-image>
-      <div hidden$="[[!heading]]" class="title-text">[[heading]]</div>
+
+      <template is="dom-if" if="[[!horizontal]]">
+        <div hidden$="[[!heading]]" class="title-text">[[heading]]</div>
+      </template>
     </div>
+
+    <template is="dom-if" if="[[horizontal]]">
+      <div hidden$="[[!heading]]" class="title-text">[[heading]]</div>
+    </template>
 
     <content></content>
     <!-- end template -->
@@ -80,7 +91,11 @@
   <script>
     Polymer({
       is: 'android-card',
-
+      properties: {
+        horizontal: {
+          type: Boolean,
+        }
+      },
       behaviors: [
         Polymer.KoaCardBehavior
       ]
