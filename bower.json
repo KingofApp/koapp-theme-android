@@ -1,6 +1,6 @@
 {
   "name": "koapp-theme-android",
-  "authors": "Abdón Rodríguez Davila, <thepeer@kingofapp.es>",
+  "authors": "King of App",
   "description": "android theme for King of App",
   "main": "koapp-theme-android.html",
   "moduleType": [
