@@ -5,7 +5,7 @@
     "en-US" : "",
     "es-ES" : "Plantilla basada en las guías de diseño de Material Design"
   },
-  "version": "1.1.1",
+  "version": "1.1.2",
   "category": [
     "material-design"
   ],
@@ -28,7 +28,7 @@
   },
   "defaultConfig": {
     "colors": {
-      "primaryTextColor": "#212121",
+      "primaryTextColor": "#21.1.2",
       "primaryBackgroundColor": "#ffffff",
       "secondaryTextColor": "#737373",
       "disabledTextColor": "#9b9b9b",
